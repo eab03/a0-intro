@@ -78,3 +78,45 @@ footer {
 		padding-left: 1.65em;
 	}
 }
+
+h1 {
+	color: #ff8362;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 2.75em;
+	margin-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+footer {
+	background-color: #393939;
+	color: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: .75em;
+	height: 25px;
+	padding: 1.25em 1em 0 0;
+	text-align: right;
+	vertical-align: middle;
+}
+
+@media only screen and (max-device-width: 800px) {
+    html {
+        background-color: #f88379;
+    }
+	.container {
+		width: 75%;
+	}
+}
+
+@media only screen and (min-device-width: 2000px) {
+	.container {
+		width: 50%;
+	}
+	.text {
+		font-size: 1.2em;
+		line-height: 170%;
+	}
+	.introduction h2 {
+		padding-left: 1.65em;
+	}
+}
