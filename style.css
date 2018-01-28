@@ -5,14 +5,14 @@ html {
 }
 
 body {
+	background-image: url("images/bali-2.jpg");
+	background-size: cover;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 .container {
-	background-image: url('/images/bali-2.jpg');
-	background-size: cover;
 	border: 4px solid black;
 	color: #E68F51;
 	font-family: "Palatino Linotype", "Book Antiqua", serif;
@@ -37,8 +37,8 @@ h1 {
 	padding-bottom: 12.5px;
 }
 
-header p {
-	font-size: 1em;
+p {
+	font-size: .75em;
 }
 
 .embed-responsive {
@@ -48,7 +48,6 @@ header p {
 
 footer {
 	background-color: #393939;
-	font-size: .75em;
 	height: 35px;
 	padding: .75em 1em 0 0;
 	text-align: right;
